@@ -16,3 +16,7 @@ git -C ~/.config/nvim pull origin main
 ```bash
 git -C ~/.config/nvim pull origin main
 ```
+
+## Credits
+Heavily inspired by Alejandro Londoño's ultimate nvim setup guide
+https://dev.to/slydragonn/ultimate-neovim-setup-guide-lazynvim-plugin-manager-23b7 
