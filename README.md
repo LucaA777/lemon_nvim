@@ -3,8 +3,16 @@ Personal nvim setup for a very minimalist experience.
 
 ## Installation 
 ```bash
-git clone https://github.com/LucaA777/lemon_nvim.git ~/.config
-mv ~/.config/lemon_nvim ~/.config/nvim
+# Ensure that the nvim config folder exists
+mkdir -p ~/.config/nvim
+
+# Go to nvim directory
+cd ~/.config/nvim
+
+# Connect the repository
+git init
+git remote add origin https://github.com/LucaA777/lemon_nvim/lemon_nvim
+git pull origin main
 ```
 
 ## Updating
