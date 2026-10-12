@@ -8,7 +8,7 @@ mkdir -p ~/.config/nvim
 
 # Connect the repository
 git init ~/.config/nvim
-git -C ~/.config/nvim remote set-url origin https://github.com/LucaA777/lemon_nvim/lemon_nvim
+git -C ~/.config/nvim remote set-url origin https://github.com/LucaA777/lemon_nvim
 git -C ~/.config/nvim pull origin main
 ```
 
